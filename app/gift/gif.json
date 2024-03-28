@@ -1,0 +1,44 @@
+[
+    {
+        "team":"Sacramento River Cats",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/rc.png",
+        "dest":"Las Vegas Ballpark, Las Vegas, Nevada"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/tm.png",
+        "dest":"Sutter Health Park, Sacramento, California"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/rc.png",
+        "dest":"Las Vegas Ballpark, Las Vegas, Nevada"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/tm.png",
+        "dest":"Sutter Health Park, Sacramento, California"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/rc.png",
+        "dest":"Las Vegas Ballpark, Las Vegas, Nevada"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/tm.png",
+        "dest":"Sutter Health Park, Sacramento, California"
+    },
+    {
+        "team":"Las Vegas Aviators",
+        "time":"Oct 15 | Sun | 4:30 PM",
+        "image":"/images/rc.png",
+        "dest":"Las Vegas Ballpark, Las Vegas, Nevada"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Sacramento River Cats",
+        "imgUrl":"/images/mgroup.png",
+        "events":48,
+        "sport":"Baseball"
+    },
+    {
+        "name":"Las Vegas Aviators",
+        "imgUrl":"/images/mgroup1.png",
+        "events":28,
+        "sport":"Baseball"  
+    },
+    {
+        "name":"new jersey devils",
+        "imgUrl":"/images/mgroup2.png",
+        "events":15,
+        "sport":"Ice Hockey"  
+    },
+    {
+        "name":"Las Vegas Aviators",
+        "imgUrl":"/images/mgroup3.png",
+        "events":28,
+        "sport":"Baseball"  
+    },
+    {
+        "name":"Las Vegas Aviators",
+        "imgUrl":"/images/mgroup.png",
+        "events":28,
+        "sport":"Baseball"  
+    }
+]

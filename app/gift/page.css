@@ -1,0 +1,40 @@
+/* page.css */
+
+button.rec-arrow {
+    width: 1.5rem; 
+    height: 2.5rem; 
+    padding:0px;   
+  }
+
+  button.rec-arrow:hover,
+  button.rec-arrow:hover:disabled,
+  button.rec-arrow:focus {
+    background: #2C9CF0 !important;
+    color: black;
+  }
+  button.rec-arrow:hover{
+    background-color: #2C9CF0 !important;
+  }
+
+  button.rec-arrow {
+    background-color: transparent;
+    outline: 1px solid #2C9CF0 !important; 
+    border-radius: 3px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color:#2C9CF0;
+  }
+  button.rec-arrow {
+    position: relative;
+    top: 0%;
+    transform: translateY(-50%);
+    z-index: 20;
+  }
+  button.rec-arrow-left {
+    left: -30px !important;
+  }
+  
+  button.rec-arrow-right {
+    right: -30px !important;
+  }
