@@ -10,10 +10,8 @@ interface Details{
   image:string,
   dest:string
 }
-interface GiftProps {
-  ispresent: boolean;
-}
-const Gifts: React.FC<GiftProps> = ({ ispresent }) => {
+
+const Gifts: React.FC<{ispresent: boolean}> = ({ ispresent }) => {
     const [itemsToShow, setItemsToShow] = useState(3);
 
     useEffect(() => {
@@ -35,7 +33,7 @@ const Gifts: React.FC<GiftProps> = ({ ispresent }) => {
       };
     }, []);
   return (
-    <div className="pulp p-10 linearg h-full  w-[80%] m-auto  rounded-md" style={{ background: ispresent ? 'linear-gradient(to bottom, rgba(24, 40, 42, 1), rgba(34, 26, 44, 1))' : 'linear-gradient(to bottom, rgba(249, 248, 255, 1), rgba(243, 249, 255, 1))', height: 'auto' }}>
+    <div className="pulp p-10 h-full  w-[80%] m-auto  rounded-md" style={{ background: ispresent ? 'linear-gradient(to bottom, rgba(24, 40, 42, 1), rgba(34, 26, 44, 1))' : 'linear-gradient(to bottom, rgba(249, 248, 255, 1), rgba(243, 249, 255, 1))', height: 'auto' }}>
         <p className={`text-[3rem] mb-2 font-medium flex justify-center ${ispresent ? 'text-white': 'text-black' }`}>
         Collection Spotlight
         </p>

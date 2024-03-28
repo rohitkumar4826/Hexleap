@@ -8,10 +8,7 @@ interface Card {
   events: number;
   sport: string;
 }
-interface CardsProps {
-  ispresent: boolean;
-}
-const Cards: React.FC<CardsProps> = ({ ispresent }) => {
+const Cards: React.FC<{ ispresent: boolean }> = ({ ispresent }) => {
   return (
     <div className="w-[100%]  mt-[8%] mb-[8%]">
       <p className="categ mb-[2%]  bg-transparent w-[80%] m-auto">
