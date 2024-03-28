@@ -10,8 +10,10 @@ interface Details{
   image:string,
   dest:string
 }
-
-const Gifts: React.FC<{ispresent: boolean}> = ({ ispresent }) => {
+interface Gift{
+  ispresent: boolean;
+}
+const Gifts: React.FC<Gift> = ({ ispresent }) => {
     const [itemsToShow, setItemsToShow] = useState(3);
 
     useEffect(() => {
