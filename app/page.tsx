@@ -4,11 +4,11 @@ import React, { useState } from "react";
 import Cards from "./cards/page";
 import Gift from "./gift/page";
 import Switch from "@mui/material/Switch";
-export default function Home() {
-  const [ispresent, setIsPresent] = useState(true); // Initial state for ispresent
+export default function Home(): JSX.Element{
+  const [ispresent, setIsPresent] = useState<boolean>(true); 
 
   const handleToggle = () => {
-    setIsPresent(!ispresent); // Update ispresent on toggle
+    setIsPresent(!ispresent);
   };
 
   return (

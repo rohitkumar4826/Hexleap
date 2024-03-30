@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import maskGroupImage from "./../../public/images/mgroup.png";
 import dupli from "./card.json";
 interface Card {
   name: string;
@@ -8,10 +7,10 @@ interface Card {
   events: number;
   sport: string;
 }
-interface CardsProps {
-  ispresent: boolean;
-}
-const Cards: React.FC<CardsProps> = ({ ispresent }) => {
+
+
+
+const Cards = ({ ispresent }:any) => {
   return (
     <div className="w-[100%]  mt-[8%] mb-[8%]">
       <p className="categ mb-[2%]  bg-transparent w-[80%] m-auto">
